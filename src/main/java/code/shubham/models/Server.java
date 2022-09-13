@@ -31,6 +31,13 @@ public class Server {
         return Objects.hash(ipAddress, port);
     }
 
+    /**
+     * ToDo
+     *
+     * @param r
+     * @return
+     * @param <R>
+     */
     public <R> Object serve(R r) {
         return null;
     }
